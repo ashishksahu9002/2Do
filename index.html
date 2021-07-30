@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2Do</title>
+    <link rel="stylesheet" href="./style.css">    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main-body">        
+    </div>
+    <div class="main-body-inner">            
+    </div>    
+    <div class="container-outer">                        
+    </div>
+    <div class="container-inner">        
+        <div class="list"></div>
+    </div>
+    <div class="container-inner2">        
+        <div class="list"></div>
+    </div>
+    <!-- <div class="toBeDone"><p>Task List</p></div> -->
+    <!-- <div class="completed" onclick="completedFunc()"><p>Completed</p></div> -->
+    <div class="toDo">
+        <h1>2Do</h1>
+    </div>
+        <button class="addPopup" onclick="addPop()"><h1>+</h1></button>   
+    </div>
+    <div class="popupBlur">
+        <div class="popUp">
+            <button class="closeBtn" onclick="closePopUp()">
+                <i class="fas fa-times"></i>
+            </button>
+            <textarea class="addTxt" cols="35" rows="6" placeholder="Task..."></textarea>
+            <button class="addBtn" onclick="addElement()">
+                <p>Add Task</p>
+            </button>
+        </div>
+    </div>
+    
+
+    <script src="./app.js"></script>
+</body>
+</html>
